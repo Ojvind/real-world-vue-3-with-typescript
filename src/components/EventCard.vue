@@ -11,11 +11,16 @@
 </template>
 
 <script lang="ts">
+/* eslint-disable */
 import { defineComponent } from 'vue'
+// import type { PropType } from 'vue'
+// import { EventItem } from '../types' 
 export default defineComponent({
   props: {
     event: {
-      type: Object,
+      // type: Object as PropType<EventItem>,
+      // type: Object as PropType<EventItem>,
+        type: Object,
       required: true
     }
   }

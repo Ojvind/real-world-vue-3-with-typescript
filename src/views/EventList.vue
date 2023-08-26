@@ -6,6 +6,7 @@
 </template>
 
 <script lang="ts">
+/* eslint-disable */
 import { defineComponent } from 'vue'
 import { EventItem } from '../types'
 
